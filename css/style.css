@@ -1,0 +1,68 @@
+body{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightcyan;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.897);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 20px;
+    border-bottom: 20px, solid gray;
+}
+
+ h1{
+    color: greenyellow;
+    text-align: center;
+}
+
+label{
+    color:rgb(20, 133, 20);
+}
+.inputsCnt{
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+
+.flex{
+    display: flex;
+    size-adjust: 10px;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.781);
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 20px;   
+}
+
+.CalculoCnt{
+    width: 33%;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.nomeCalculo{
+    color: rgba(39, 39, 199, 0.747);
+}
+
+.resultadoCalculo{
+    color:beige;
+    font-size:30px;
+}
+.botaoCalcular{
+    background-color: greenyellow;    
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+       
+}
